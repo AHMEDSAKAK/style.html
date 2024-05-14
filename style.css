@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color:  #1e3a91;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display:flex;
+    justify-content: space-around ;
+    align-items: center;
+   
+}
+.logo{
+    text-decoration: none;
+    color:#0f0f0f;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    color:#080808;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: rgb(89, 3, 100);
+
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 200%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    background: url(AH8.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #0b0b0c;
+  
+   
+}
+.main h2{
+    color: #101011;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color:#0a49f6;
+    font-size: 2.5em;
+    font-weight:500;
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color:#0a49f6;
+    font-size: 2.5em;
+    font-weight:500;
+    
+}.main h2 span1 {
+    display: flex;
+    margin-top: 5px;
+    color: #1846a1;;
+    font-size: 1.4em;
+    font-weight:700;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 4cm;
+}
+.main h4 spanXS {
+    display: flex;
+    margin-top: 5px;
+    color: #1846a1;;
+    font-size: 1em;
+    font-weight:500;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 6.8cm;
+}
+.project17-image{
+    background-position: center;
+    background-attachment: fixed;
+    float:right;
+    height: 100%;
+    width: 30%;
+position: absolute;
+top: 0px;
+left: 50px;
+font-size: small;
+}
+.assd{
+    position: absolute;
+top: 40px;
+right: 0px;
+}
+
+h4{
+    color:rgb(white);
+    font-size: 3em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+}
+.main-btn{
+    color: #fff;
+    background-color: #0a49f6;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.9s ease;
+    position: absolute;
+    top: 12.5cm;
+   
+}
+.main-btn:hover{
+    background-color:#0a49f6;
+    transform: scale(1.1);
+}
+ .social-icons a{
+    color:#fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+  
+
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+        color: #3a6cf4;
+        font-size: 2.2em;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card {
+        background-color: #fff;
+        width:21.25em;
+        box-shadow: 0 5px 25px blue;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 20px;
+        transition: 0.7s ease;
+    }
+    .cards1{
+        background-color: #FFF;
+    }
+    .card:hover{
+        transform: scale(1.1);
+    }
+    .icon{
+        color: #3a6cf4;
+        font-size: 7em;
+        text-align: center;
+    }
+    .info h3{
+        color: #3a6cf4;
+        font-size: 1.2em;
+        font-weight: 700;
+        margin: 10px;
+    }
+    .projects{
+        background-color: red;
+    }
+    .projects .content{
+        margin-top: 10px;
+    }
+    .project-card{
+        background-color: #fff;
+        border: 1px solid #f0f0f0;
+        min-height: 14em;
+        width: 23em;
+        overflow: hidden;
+        border-bottom:10px;
+        margin: 20px;
+        transform: 0.7s ease;
+    }
+    .project4-card{
+        background-color: #fff;
+        width:21.25em;
+        box-shadow: 0 5px 25px blue;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 20px;
+        transition: 0.7s ease;
+    }
+    .project4-card:hover{
+        transform: scale(1.1);
+    }
+    .project-card:hover .project-image {
+        opacity: 0.3;
+    }
+    .project-image  img{
+        width: 100%;
+    }
+    .project65-image  img{
+        width: 40%;
+        background-position:right ;
+       font-display: top;
+    }
+    .project-info{
+        padding: 1em; 
+        color: #000;
+    }
+    .project-category{
+        font-size:0.8em;
+        color: #0000;
+
+    }
+    .HTD{
+        color: #0a49f6;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .project-categoryS{
+        font-size:0.8em;
+        color: #0000;
+
+    }
+    .project-title{
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-top: 10px;
+    }
+    .more-details{
+        text-decoration: none;
+        color: #3a6cf4;
+    }
+    .more-details:hover{
+        color: #3a6cf4;
+    }
+    .more-details2{
+        text-decoration: none;
+        color: #FFF;
+    }
+    .more-details2:hover{
+        color: #601cfc;
+    }
+    .contact{
+        background: url(image/ec.png) repeat ;
+
+      
+    
+        
+    }
+    .contac .icon {
+        font-size: 4.5;
+
+    }
+    .contact .info h3{
+        color: #000;
+
+    }
+    .contact .info p{
+        font-size: 1.5m;
+    }
+    .footer{
+        background-color: #000016;
+        color: #fff;
+        padding: 2em;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-title span{
+        font-size: 1.3em;
+        font-weight: 600;
+
+    }
+    .footer-title span{
+        color: #3a6cf4;
+    }
+    
+    @media(max-width:1023px){
+        header{
+            padding: 12px 20px;
+        }
+   
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title {
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main-content h4{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main-content h2{
+        font-size: 0.8em;
+    }
+    .main-content h4{
+        font-size: 1.4em;
+    }
+    .main h4{
+        font-size: 0.8em;
+    }
+}
+@media(max-width:300px){
+    body{
+         font-size: 10px;
+    }
+    
+}
